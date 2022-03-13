@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+
+
+<script>
+
+function pulaLinha() {
+    document.write ("<br>");
+    document.write ("<br>");
+
+}
+
+function mostra(frase) {
+  document.write(frase);
+  pulaLinha();
+}
+
+
+var limite = parseInt(prompt("entre com o último número"));
+
+var contador = 0;
+while(contador <= limite) {
+
+	mostra("Números pares " + contador);
+	contador =  contador+2;
+}
+
+mostra("Fim")
+
+
+
+
+
+
+
+  </script>
